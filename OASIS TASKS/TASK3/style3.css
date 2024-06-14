@@ -1,0 +1,69 @@
+
+/* Reset and base styles */
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+}
+
+/* Body styles */
+body {
+  background: url('img1.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+/* Wrapper styles */
+.wrapper {
+  width: 400px;
+  background-color: #fff;
+  padding: 40px 30px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* Title styles */
+.wrapper p {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #3164ff;
+}
+
+/* Container styles */
+.container {
+  margin-bottom: 20px;
+}
+
+/* Input styles */
+input {
+  width: 100%;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+  outline: none;
+  padding: 0 15px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #3164ff;
+}
+
+/* Label styles */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
